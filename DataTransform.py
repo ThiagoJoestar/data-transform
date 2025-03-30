@@ -31,7 +31,7 @@ def extrair_dados_tabela(pdf_path):
 print("Extraindo dados do PDF...")
 dados = extrair_dados_tabela(pdf_path)
 
-# 2.2: Salvar em formato CSV
+# Salvar em formato CSV
 print("Processando os dados...")
 df = pd.DataFrame(dados)
 
